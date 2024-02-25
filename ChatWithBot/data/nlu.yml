@@ -1,0 +1,145 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Xin chào
+    - Chào bạn
+    - Chào buổi sáng
+    - Chào buổi chiều
+    - Chào buổi tối
+    - Chào em
+    - Hello em
+    - bot ơi
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - tạm biệt
+    - tạm biệt bot
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - chính xác
+    - tất nhiên rồi
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - không
+    - đéo
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - tuyệt vời
+    - amzing gút chóp em
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - buồn
+    - chán quá
+    - chán thực sự
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - bạn là bot à
+    - tôi đang nói chuyện với bot đúng không?
+    - tôi đang nói chuyện với người đúng không?
+
+- intent: ask_ability
+  examples: |
+    - bot có thể làm được những gì?
+    - bot có chức năng gì?
+    - bot giúp được gì
+    - bot biết làm gì
+    - bot hỗ trợ mình như thế nào
+    - cho xem chức năng của bot
+
+- intent: inquire_about_university
+  examples: |
+    - Thương hiệu của Trường Đại học Đại Nam được xây dựng dựa trên nền tảng sứ mệnh, tầm nhìn và giá trị cốt lõi...
+    - Cho biết về sứ mệnh của Đại học Đại Nam?
+    - Tầm nhìn của trường Đại học Đại Nam là gì?
+    - Sứ mệnh của Đại học Đại Nam?
+    - Đại học Đại Nam theo đuổi triết lý giáo dục nào?
+    - Các giá trị cốt lõi của Đại học Đại Nam là gì?
+    - Trường DNU
+    - Giới thiệu trường DNU
+    - Trường Đại học Đại Nam
+    - Giới thiệu trường Đại Nam
+    - Trường DNU là gì?
+    - Trường DNU là trường gì?
+
+- intent: establish_mission
+  examples: |
+    - Thương hiệu của Đại học Đại Nam được xây dựng trên nền tảng sứ mệnh ra sao?
+    - Sứ mệnh của Đại học Đại Nam là gì?
+    - Sứ mệnh của nhà trường?
+    - Đại học Đại Nam quan niệm về sứ mệnh như thế nào?
+    - Sứ mệnh của trường Đại học Đại Nam là gì?
